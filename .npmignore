@@ -1,0 +1,11 @@
+src/
+tests/
+examples/
+coverage/
+.github/
+*.config.*
+.gitignore
+tsconfig.json
+.eslintrc*
+.prettierrc*
+npm-debug.log*
