@@ -152,3 +152,9 @@ export class Storage implements StorageInterface {
     );
   }
 }
+
+export function createStorage(config: {
+  adapter: StorageAdapter;
+}): StorageInterface {
+  return new Storage(config);
+}
